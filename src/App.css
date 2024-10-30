@@ -1,6 +1,48 @@
+* ::selection{
+  user-select: none;
+}
+
 .App {
   text-align: center;
 }
+.faq-box{
+background-color: grey;
+margin: 10px;
+border-radius: 10px;
+text-align: left;
+padding: 10px;
+color: rgb(7, 242, 195);
+}
+.que{
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 20px;
+}
+.que button{
+  height: 40px;
+  width: 40px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(1, 1, 58);
+}
+.ans{
+  margin: 15px 0 5px 50px;
+  color: rgb(3, 38, 67);
+  font-size: 18px;
+}
+
+.arrow{
+transform: rotate(90deg);
+}
+
+/* ab ek animation apply karenge button par jab bhi click karenge 90 degree rotate hona chahiye */
 
 .App-logo {
   height: 40vmin;
